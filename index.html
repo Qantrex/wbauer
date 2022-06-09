@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="de">
+
+	<head>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;0,700;1,400;1,700&family=Raleway:ital,wght@0,100;0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+ 		<meta charset="utf-8">
+ 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+ 		<link rel="stylesheet" type="text/css" href="src/css/styles.css">
+ 		<title>Wbauer | Home</title>
+ 	</head>
+
+	<body>
+
+			<!-- === NAVIGATION_BAR === -->
+
+			<nav id="header-nav">
+
+				<div class="desktop-nav nav-container">
+					<div class="row">
+						<div class="col-6">
+
+							<a href="index.html"><img id="nav-logo" src="src/img/wbauer-webdesign-logo.png" alt="Dast Logo von Webdesign Made Simple"></a>
+
+							<ul>
+								<li><a style="color:var(--red)" href="index.html">Home</a></li>
+								<li><a href="leistungen.html">Leistungen</a></li>
+								<li><a href="kontakt.html">Kontakte</a></li>
+								<li><a href="impressum.html">Impressum</a></li>
+							</ul>
+
+						</div>
+					</div>
+				</div>
+
+				<div class="mobile-nav nav-container">
+					<div class="row">
+						<div class="col-6">
+
+							<a href="index.html"><img id="nav-logo" src="src/img/wbauer-webdesign-logo.png" alt="Dast Logo von Webdesign Made Simple"></a>
+
+							<div class="mobile-nav-dropdown clearfix">
+
+							<div class="mobile-nav-button"><span>&equiv;</span></div>
+
+							<div class="mobile-nav-content clearfix">
+									<ul>
+									<li><a style="color:var(--red)" href="index.html">Home</a></li>
+														<li><a href="leistungen.html">Leistungen</a></li>
+									<li><a href="kontakt.html">Kontakte</a></li>
+									<li><a href="impressum.html">Impressum</a></li>
+								</ul>
+							</div>
+						</div>
+					 </div>
+					</div>
+				</div>
+
+
+			</nav>
+
+			<!-- === HEADER_BANNER === -->
+
+			<header class="header-banner"></header>
+
+			<!-- === NEWSLETTER === -->
+
+			<section class="newsletter-container">
+				<div class="container">
+					<div class="row">
+						<div class="col-3">
+							<p id="nl-text">Melde dich bei unserem <span class="bold">Newsletter</span> an und verpasse nichts mehr!</p>
+						</div>
+						<div class="nl-right col-3 clearfix">
+							<form class="nl-form" action="index.html" method="post">
+								<label for="nl-email-input" class="hide">Email:</label>
+								<input id="nl-email-input" class="nl-form-element" type="text" name="email" title="Enter an E-mail adress" placeholder="E-mail adress" pattern="?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*|"(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21\x23-\x5b\x5d-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])*")@(?:(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?|\[(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?|[a-z0-9-]*[a-z0-9]:(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21-\x5a\x53-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])+)\])">
+								<button id="nl-btn" class="btn-1 nl-form-element" type="submit">Jetzt anmelden!</button>
+							</form>
+						</div> 
+					</div>
+				</div>
+			</section>	
+	</body>
+</html>
