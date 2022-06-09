@@ -43,6 +43,19 @@ body{
   color: var(--light-grey);
   padding: .4rem .6rem;
 }
+.intro-container{
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 2.5rem;
+}
+.intro-container p{
+    font-size: 1.2rem;
+}
+.intro-container h1{
+    font-size: 1.6rem;
+    text-transform: uppercase;
+}
 
 /* ==== NAV-BAR ==== */
 
@@ -261,6 +274,32 @@ body{
   #nl-text{
     margin-bottom: 0;
   }
+}
+
+/* === LEISTUNGEN_BEREICH === */
+
+.leistungen-articles{
+  border-radius: 7px;
+  background-color: var(--dark-grey);
+  color: var(--light-grey);
+  text-align: center;
+  padding: 1rem 3rem 2.5rem;
+  width: 60%;
+  margin: 0 auto;
+}
+#leistungen-bereich .row .col-3:nth-of-type(even) > .leistungen-articles{
+ margin-left: 1rem;
+}
+#leistungen-bereich .row .col-3:nth-of-type(odd) > .leistungen-articles{
+margin-right: 1rem;
+}
+  
+.leistungen-articles a:link{
+  color: var(--light-grey);
+  text-decoration: none;
+}
+.leistungen-articles a:visited{
+  color: var(--light-grey);
 }
 
 
